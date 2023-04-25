@@ -344,10 +344,14 @@ body {
     align-items: flex-start;
     background-image: url("Glow Up Images/Product/b17.jpg");
     min-width: 500px;
-    height: 35vh;
+    height: 50vh;
     background-size: cover;
     background-position: center;
     padding: 30px;
+}
+
+#sm-banner .banner-box2 {
+    background-image: url("Glow Up Images/Product/b18.jpeg");
 }
 
 #sm-banner h4 {
@@ -374,11 +378,10 @@ body {
     border: 1px solid #6090A9;
 }
 
-
-
-
-
-
+#sm-banner .banner-box2:hover button {
+    background: #D3B255;
+    border: 1px solid #D3B255;
+}
 
 #header button {
     background-image: url("Glow Up Images/Hero/button.png");
@@ -400,5 +403,5 @@ body {
     cursor: pointer;
     font-weight: 700;
     font-size: 15px;
+    justify-content: center;
 }
-
